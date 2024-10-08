@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: #0b1320;
+  padding: 15px;
+  gap: 17px;
+  overflow-x: hidden;
+}
+.sidebar {
+  height: 100%;
+  width: 7%;
+  background: #353e4d;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.sidecon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0px;
+  gap: 40px;
+}
+.logocon{
+  
+  background: #414a57;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: #f1f8de;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.logocon svg{
+  font-size: 40px;
+}
+.menuitem{
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.menuitem .icon{
+  width: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  color: #f1f8de;
+  align-items: center;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: 0.5;
+}
+.menuitem .icon a svg{
+  
+  font-size: 20px;
+  color: #f1f8de;
+}
+.menuitem .icon:hover{
+  opacity: 1;
+}
+.content{
+left: 89px;
+height: 100%;
+width: 100%;
+}
+.maincont{
+  display: flex;
+  height: 100%;
+  width: calc(100% - 89px) ;
+  padding: 10px;
+  gap: 7px;
+}
+.allin{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.searchinput{
+ width: 100%;
+ height: 35px;
+ display: flex;
+ align-items: center;
+ background: #353e4d ;
+ padding: 10px;
+ border-radius:10px ;
+ -webkit-border-radius:10px ;
+ -moz-border-radius:10px ;
+ -ms-border-radius:10px ;
+ -o-border-radius:10px ;
+}
+.searchinput svg{
+  color: #bec0bb;
+  cursor: pointer;
+}
+.searchinput input{
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #f1f8de;
+  font-weight: 300;
+  font-size: 14px;
+}
+.icont{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+}
+.cont2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #f1f8de;
+  margin-left: 20px;
+
+}
+
+.tect p{
+  font-size: 27px;
+  font-weight: 400;
+
+}
+.tect span{
+  font-size: 10px;
+  font-weight: 200;
+  color: #545b64;
+}
+.tect1 p{
+font-size: 40px;
+font-weight: 500;
+}
+.sun{
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  margin-right: 20px;
+}
+.sun img{
+  width: 120px;
+}
+.wcont{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  background: #353e4d;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+}
+.wcont p{
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: #f1f8de;
+  font-weight: 200;
+  letter-spacing: 0.9px;
+  opacity: 0.6;
+}
+.wcont .allcol{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.col img{
+  width: 50px;
+}
+.col .time{
+  font-size: 13px;
+  font-weight: 600;
+  color: #f1f8de;
+  opacity: 0.3;
+  letter-spacing: 1px;
+}
+.col span{
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #f1f8de;
+  opacity: 0.8;
+}
+.line{
+  height: 90%;
+  width: 2px;
+  background:#f1f8de;
+  border-radius: 20px;
+  opacity: 0.6;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.last{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  background: #353e4d;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.first1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first1 .spncon{
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.first1 .spncon span{
+  font-size: 12px;
+  color: #f1f8de;
+  font-weight: 200;
+  letter-spacing: 0.9px;
+  opacity: 0.6;
+}
+.first1 .btncon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first1 .btncon button{
+  border: none;
+  outline: none;
+  padding: 7px  15px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background: linear-gradient(120deg,#023a9b,#3f5e92);
+  font-size: 12px;
+  color: #f1f8de;
+  cursor: pointer;
+}
+.conta{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  padding: 6px 10px;
+}
+.temp .te {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  color: #f1f8de;
+  opacity: 0.4;
+}
+.temp .te svg{
+  font-size: 17px;
+}
+.temp .te span{
+  font-size: 12.5px;
+}
+.temp{
+  display: flex;
+flex-direction: column;
+
+
+}
+.temp p{
+  margin-left: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #f1f8de;
+  opacity: 0.7;
+}
+.aside{
+  width: 500px;
+  padding: 15px;
+}
+.asidemain{
+  display: flex;
+  height: 100%;
+  width:100%;
+  margin-top: 30px;
+}
+.asidee{
+  background: #353e4d;
+  height: 90%;
+  gap: 20px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.asidee .sev{
+  color: #f1f8de;
+  font-size: 13px;
+  opacity: 0.7;
+}
+.dayy img{
+ width: 40px;
+}
+.day{
+  width: 100%;
+  padding: 10px 5px;
+}
+.day .dayy{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+}
+.dayy .iim p{
+  font-size: 15px;
+  font-weight: 600;
+  color: #bec0bb;
+}
+.dayy .iim{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.today span{
+  font-size: 15px;
+  color: #f1f8de;
+  opacity: 0.5;
+}
+.dayy .tt{
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+.dayy .tt span{
+  color: #f1f8de;
+}
+.dayy .tt p{
+  color: #80848a;
+}
+.hline{
+  width: 100%;
+  height: 2px;
+  border-radius: 20px;
+  background: #545b64;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+@media (max-width:479px){
+  body{
+    background: #0b1320;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    height: 100%;
+  }
+  .sidebar{
+    display: none;
+  }
+  .maincont{
+    width: 100%;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+  }
+ 
+  .cont2{
+    gap: 5px;
+  }
+  .tect p{
+    font-size: 30px;
+  }
+  .tect1 p{
+    font-size: 35px;
+  }
+  .sun img{
+    width: 90px;
+  }
+  .wcont{
+    padding: 2px 5px;
+    width: 100%;
+  }
+  .content{
+    left: 0;
+    width: 100%;
+    padding: 5px;
+  }
+  .wcont p{
+    font-size: 10px;
+  }
+  .wcont .allcol{
+    padding: 2px 8px;
+    width: 100%;
+  }
+  .col{
+    width: 100%;
+    gap: 8px;
+  }
+  .col img{
+    width: 35px;
+  }
+  .col .time{
+    font-size: 8px;
+    color: white;
+  }
+  .col span{
+    font-size: 10px;
+  }
+
+  .last{
+    padding: 5px 7px;
+    border-radius: 14px;
+    gap: 5px;
+  }
+  .spncon span{
+
+  }
+  .first1 .btncon{
+    display: none;
+  }
+  .first1 .btncon button{
+    font-size: 8px ;
+    
+  }
+  .first1{
+    justify-content: space-around;
+  }
+  .conta{
+    gap: 5px;
+  }
+  .second{
+    gap: 5px;
+  }
+  .temp p{
+    font-size: 20px;
+  }
+  .aside{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: -58px;
+    top: 0;
+  }
+  .asidemain{
+  top: 0;
+  }
+  .asidee{
+    gap: 1px;
+    height: 85%;
+    padding: 10px;
+  }
+  .dayy img{
+    width: 30px;
+  }
+  .day {
+    padding: 5px  2px;
+  }
+  .day .dayy{
+    padding: 5px;
+  }
+  .dayy .iim{
+    gap: 10px;
+  }
+  .dayy .tt{
+    
+  }
+
+}
